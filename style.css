@@ -149,3 +149,39 @@ footer p {
     z-index: 7;
     background: #2a2a2a;
 }
+
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    .left {
+        width: 40%;
+    }
+    
+    .logo img {
+        width: 1.7em;
+    }
+    
+    section h2 {
+        font-size: 3rem;
+    }
+    
+    footer p {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .sign {
+        font-size: .9rem;
+    }
+
+    .right {
+        width: 60%;
+    }
+    
+};
+
+@media (max-width: 425px){
+    
+
+}
